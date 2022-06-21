@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HDC Agency</title>
+  <!-- Google Fonts - Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/6825342153.js" crossorigin="anonymous"></script>
+  <!-- ProgressBar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container" id="nav-container">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="#" class="navbar-brand">
+          <img id="logo" src="img/hdcagency_logo.svg" alt="HDC Agency">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu">Home</a>
+            <a class="nav-item nav-link" id="about-menu">About</a>
+            <a class="nav-item nav-link" id="services-menu">Services</a>
+            <a class="nav-item nav-link" id="team-menu">Team</a>
+            <a class="nav-item nav-link" id="portfolio-menu">Projects</a>
+            <a class="nav-item nav-link" id="contact-menu">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#mainSlider" data-bs-slide-to="1"></li>
+          <li data-bs-target="#mainSlider" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.png" class="d-block w-100" alt="E-commerce Projects">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Do you want to create an e-commerce?</h2>
+              <p>Count on us, we have more than 30 stores in our portfolio.</p>
+              <a href="#" class="main-btn">See portfolio</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.png" class="d-block w-100" alt="Software Engineering">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Do you want to put the project in pratice?</h2>
+              <p>Our software team are ready to help you.</p>
+              <a href="#" class="main-btn">See portfolio</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.png" class="d-block w-100" alt="Software Maintenance">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Are you searching for software maintenance?</h2>
+              <p>Count on us, we have a prepared team to help you.</p>
+              <a href="#" class="main-btn">See portfolio</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="about-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">About HDC Agency</h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/agencia.jpg" alt="HDC Agency">
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">An agency that think in the future</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident atque repellat</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident atque repellat</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident atque</p>
+              <p>Lorem ipsum dolor sit amet:</p>
+              <ul id="about-list">
+                <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur</li>
+                <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet</li>
+                <li><i class="fa fa-check"></i>Lorem ipsum dolor sit </li>
+                <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                </li>
+                <li><i class="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="service-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Our specialties</h3>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fas fa-mobile-alt"></i>
+              <h4>Native Apps</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fas fa-shopping-cart"></i>
+              <h4>E-commerces</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fas fa-paint-brush"></i>
+              <h4>Creative Design</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fa-brands fa-google"></i>
+              <h4>SEO Experts</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fas fa-hands-helping"></i>
+              <h4>24/7 Support</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+            <div class="col-md-4 service-box">
+              <i class="fas fa-server"></i>
+              <h4>Servers</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur
+                adipisicing elit</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="data-area">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-md-3 circle-box">
+              <div id="circleA">
+              </div>
+              <p>Delivered projects</p>
+            </div>
+
+            <div class="col-md-3 circle-box">
+              <div id="circleB">
+              </div>
+              <p>Happy clients</p>
+            </div>
+
+            <div class="col-md-3 circle-box">
+              <div id="circleC">
+              </div>
+              <p>Employees</p>
+            </div>
+
+            <div class="col-md-3 circle-box">
+              <div id="circleD">
+              </div>
+              <p>Coffees</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Our team</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile1.jpg" class="card-img-top" alt="Profile image 1">
+                <div class="card-body">
+                  <h5 class="card-title">Generic People</h5>
+                  <p class="card-text">Software Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile2.jpg" class="card-img-top" alt="Profile image 2">
+                <div class="card-body">
+                  <h5 class="card-title">Generic People</h5>
+                  <p class="card-text">Software Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile3.jpg" class="card-img-top" alt="Profile image 3">
+                <div class="card-body">
+                  <h5 class="card-title">Generic People</h5>
+                  <p class="card-text">Software Developer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile4.jpg" class="card-img-top" alt="Profile image 4">
+                <div class="card-body">
+                  <h5 class="card-title">Generic People</h5>
+                  <p class="card-text">Software Developer</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div id="apply-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 apply-box" id="company-img">
+
+            </div>
+
+            <div class="col-md-6 apply-box" id="pattern-img">
+              <h4>Do you like challenges?</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sunt reprehenderit quo illo eaque
+                harum, saepe expedita</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem perferendis</p>
+              <a href="#" class="main-btn" id="apply-btn">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="portfolio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="main-title">Meet our projects</h3>
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+              <button class="main-btn filter-btn active" id="all-btn">All</button>
+              <button class="main-btn filter-btn" id="dev-btn">Development</button>
+              <button class="main-btn filter-btn" id="dsg-btn">Design</button>
+              <button class="main-btn filter-btn" id="seo-btn">SEO</button>
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="/img/proj1.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="/img/proj2.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 project-box seo">
+              <img src="/img/proj3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="/img/proj4.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 project-box dev">
+              <img src="/img/proj5.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-4 project-box dsg">
+              <img src="/img/proj6.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Stay updated with news</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque doloribus omnis impedit velit debitis
+            asperiores</p>
+          <form action="">
+            <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu e-mail">
+            <input type="submit" id="news-btn" value="Inscrever">
+          </form>
+        </div>
+      </div>
+      <div id="call-area">
+        <div class="container">
+          <div class="row">
+            <p>Want to make a budget without commitment</p>
+            <button class="main-btn" id="call-btn">Budget</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Contact us</h3>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-title">Call to: </span>(415)555-2671</p>
+            <p><span class="contact-title">Opening hours: </span>8:00AM - 5:00PM</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-title">Send an e-mail to: </span>example@examplemail.com</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-title">Our physical address: </span>2242 University Ave, Riverside, CA 92507</p>
+          </div>
+          <div class="col-md 6" id="msg-box">
+            <p>Send us a message:</p>
+          </div>
+          <div class="col-md-6" id="contact-form">
+            <form action="">
+              <input type="email" class="form-control" placeholder="E-mail" name="email">
+              <input type="text" class="form-control" placeholder="Subject" name='subject'>
+              <textarea class="form-control" rows="4" placeholder="Type something..." name="message"></textarea>
+              <input type="submit" class="main-btn" value="Send">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Developed by <a href="https://github.com/pierreaquinodev" target="_blank">pierreaquinodev</a> &copy; 2022
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
