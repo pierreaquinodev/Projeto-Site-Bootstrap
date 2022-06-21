@@ -19,6 +19,9 @@ header,
 .navbar {
   background-color: #353d41;
 }
+.navbar {
+  padding-right: 20px;
+}
 #nav-container {
   padding-top: 0;
   padding-bottom: 0;
@@ -412,9 +415,7 @@ header,
   .container {
     padding: 20px 0;
   }
-  .navbar {
-    padding-right: 20px;
-  }
+
   #mainSlider .carousel-inner,
   #mainSlider .carousel-item {
     height: auto;
