@@ -102,6 +102,7 @@ header,
   font-size: 40px;
   text-align: center;
   z-index: 1;
+  text-transform: uppercase;
 }
 .main-title::after {
   content: "";
@@ -189,6 +190,7 @@ header,
   background-size: cover;
   height: 100%;
 }
+
 #pattern-img h4,
 #pattern-img p {
   color: #fff;
@@ -223,6 +225,9 @@ header,
 #filter-btn-box {
   margin-bottom: 50px;
   text-align: center;
+}
+.project-box img {
+  box-shadow: 0px 0px 10px 0px #444;
 }
 #portfolio-area .filter-btn {
   color: #444;
@@ -357,7 +362,8 @@ header,
   color: #3ec1d5;
 }
 #msg-box p {
-  font-size: 22px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 #contact-form input[type="text"],
 #contact-form input[type="email"],
@@ -402,7 +408,6 @@ header,
 }
 
 /* Responsive -- Tablet Media Query */
-
 @media (max-width: 768px) {
   .container {
     padding: 20px 0;
@@ -466,3 +471,54 @@ header,
 }
 
 /* Phone Media Query */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-top: 30px;
+  }
+  .service-box {
+    margin-bottom: 30px;
+  }
+  .service-box h4 {
+    font-size: 20px;
+  }
+  .circle-box {
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .team-area .col-md-3 {
+    width: 50%;
+    padding: 6px;
+  }
+  #company-img {
+    display: none;
+  }
+  #portfolio-area .filter-btn {
+    margin-bottom: 10px;
+    width: 40%;
+  }
+  #filter-btn-box {
+    margin-bottom: 30px;
+  }
+  .project-box {
+    width: 50%;
+  }
+  .project-box img {
+    box-shadow: 0px 0px 10px 0px #444;
+  }
+  #email-input {
+    width: 60%;
+  }
+  #news-btn {
+    width: 30%;
+    padding: 0px;
+    font-size: 14px;
+  }
+  #call-area p,
+  #call-area #call-btn {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
