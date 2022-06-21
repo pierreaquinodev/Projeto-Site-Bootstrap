@@ -51,6 +51,12 @@ header,
 #mainSlider .carousel-item {
   height: 90vh;
 }
+
+.carousel-inner img {
+  height: 90vh;
+  object-fit: cover;
+}
+
 #mainSlider .carousel-caption {
   top: 30%;
 }
@@ -389,3 +395,74 @@ header,
   text-decoration: none;
   color: #3ec1d5;
 }
+
+#about-area img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+/* Responsive -- Tablet Media Query */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 0;
+  }
+  .navbar {
+    padding-right: 20px;
+  }
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: auto;
+  }
+  #mainSlider .carousel-inner,
+  #mainSlider .carousel-item {
+    height: 60vh;
+  }
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #mainSlider .carousel-caption h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #mainSlider .carousel-caption p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  #about-area img {
+    margin-bottom: 30px;
+  }
+  #about-area h3 {
+    margin-bottom: 20px;
+  }
+  .circle-box div {
+    padding: 0px 10px;
+  }
+  #data-area p {
+    font-size: 16px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  #apply-area .apply-box {
+    padding: 50px 25px;
+  }
+  #news-area p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #email-input {
+    width: 70%;
+  }
+  #call-area .container {
+    padding: 20px;
+  }
+}
+
+/* Phone Media Query */
